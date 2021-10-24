@@ -9,6 +9,8 @@ import requests
 import time
 import json
 
+from weigher import Weigher
+
 app = Chalice(app_name='iconomi-aggregator')
 ICONOMI_API_URL = "https://api.iconomi.com"
 
@@ -18,10 +20,32 @@ def index():
     return {'hello': 'world'}
 
 
-@app.route('/detail/{ticker}')
+@app.route('/strategies/{ticker}')
 def detail(ticker):
     assets = get("/v1/strategies/" + ticker + "/structure")["values"]
     return assets
+
+
+@app.route('/strategies')
+def strategies():
+    strategies_list = get("/v1/strategies/")
+    return strategies_list
+
+
+@app.route('/top-ten')
+def top_ten():
+    tickers = ["BLX", "CAR", "ECA", "CCC", "ADVERTO", "MAV", "LONGTERMFUNDAMENTALS", "RISKYBISCUITS", "KNEPALA",
+               "JUMPSTART", "INCGROWTH"]
+    combined_assets = []
+
+    for ticker in tickers:
+        assets = get("/v1/strategies/" + ticker + "/structure")
+        combined_assets.append(assets)
+
+    weigher = Weigher(combined_assets)
+
+    return weigher.get_weighed()
+
 
 def generate_signature(payload, request_type, request_path, timestamp):
     data = ''.join([timestamp, request_type.upper(),
@@ -64,23 +88,3 @@ def call(method, api, payload):
             return json.loads(response._content)
         else:
             return ('Request did not succeed: ' + response.reason)
-
-# The view function above will return {"hello": "world"}
-# whenever you make an HTTP GET request to '/'.
-#
-# Here are a few more examples:
-#
-# @app.route('/hello/{name}')
-# def hello_name(name):
-#    # '/hello/james' -> {"hello": "james"}
-#    return {'hello': name}
-#
-# @app.route('/users', methods=['POST'])
-# def create_user():
-#     # This is the JSON body the user sent in their POST request.
-#     user_as_json = app.current_request.json_body
-#     # We'll echo the json body back to the user in a 'user' key.
-#     return {'user': user_as_json}
-#
-# See the README documentation for more examples.
-#

@@ -1,0 +1,410 @@
+[
+  {
+    "ticker": "BLX",
+    "values": [
+      {
+        "rebalancedWeight": 0.4,
+        "targetWeight": 0.4178,
+        "assetTicker": "BTC",
+        "assetName": "Bitcoin",
+        "assetCategory": "Currency",
+        "estimatedProfit": 0.3619940089745184
+      },
+      {
+        "rebalancedWeight": 0.3,
+        "targetWeight": 0.3069,
+        "assetTicker": "ETH",
+        "assetName": "Ethereum",
+        "assetCategory": "Platform",
+        "estimatedProfit": 0.3336092006060256
+      },
+      {
+        "rebalancedWeight": 0.0539,
+        "targetWeight": 0.0415,
+        "assetTicker": "ADA",
+        "assetName": "Cardano",
+        "assetCategory": "Platform",
+        "estimatedProfit": 0.002469872186429297
+      },
+      {
+        "rebalancedWeight": 0.0522,
+        "targetWeight": 0.0486,
+        "assetTicker": "BNB",
+        "assetName": "Binance Coin",
+        "assetCategory": "Exchange",
+        "estimatedProfit": 0.2136283892116185
+      },
+      {
+        "rebalancedWeight": 0.0334,
+        "targetWeight": 0.0356,
+        "assetTicker": "SOL",
+        "assetName": "Solana",
+        "assetCategory": "Platform",
+        "estimatedProfit": 0.3880802896174118
+      },
+      {
+        "rebalancedWeight": 0.0227,
+        "targetWeight": 0.0261,
+        "assetTicker": "DOT",
+        "assetName": "Polkadot NEW",
+        "assetCategory": "Platform",
+        "estimatedProfit": 0.496351995772843
+      },
+      {
+        "rebalancedWeight": 0.0119,
+        "targetWeight": 0.0104,
+        "assetTicker": "LUNA",
+        "assetName": "Terra",
+        "assetCategory": "Defi",
+        "estimatedProfit": 0.1390304152033409
+      },
+      {
+        "rebalancedWeight": 0.0119,
+        "targetWeight": 0.0098,
+        "assetTicker": "UNI",
+        "assetName": "Uniswap",
+        "assetCategory": "Defi",
+        "estimatedProfit": 0.07216210533451639
+      },
+      {
+        "rebalancedWeight": 0.0112,
+        "targetWeight": 0.0088,
+        "assetTicker": "AVAX",
+        "assetName": "Avalanche",
+        "assetCategory": "Defi",
+        "estimatedProfit": 0.02051740809538982
+      },
+      {
+        "rebalancedWeight": 0.0087,
+        "targetWeight": 0.0084,
+        "assetTicker": "LINK",
+        "assetName": "Chainlink",
+        "assetCategory": "Other",
+        "estimatedProfit": 0.2576639574417178
+      },
+      {
+        "rebalancedWeight": 0.0083,
+        "targetWeight": 0.0079,
+        "assetTicker": "LTC",
+        "assetName": "Litecoin",
+        "assetCategory": "Currency",
+        "estimatedProfit": 0.2328769866785031
+      },
+      {
+        "rebalancedWeight": 0.0078,
+        "targetWeight": 0.0068,
+        "assetTicker": "ALGO",
+        "assetName": "Algorand",
+        "assetCategory": "Defi",
+        "estimatedProfit": 0.1423909030316984
+      },
+      {
+        "rebalancedWeight": 0.0076,
+        "targetWeight": 0.0071,
+        "assetTicker": "BCH",
+        "assetName": "Bitcoin Cash",
+        "assetCategory": "Currency",
+        "estimatedProfit": 0.2197839021469798
+      },
+      {
+        "rebalancedWeight": 0.0063,
+        "targetWeight": 0.0048,
+        "assetTicker": "ATOM",
+        "assetName": "Cosmos",
+        "assetCategory": "Platform",
+        "estimatedProfit": -0.01157593991870132
+      },
+      {
+        "rebalancedWeight": 0.0061,
+        "targetWeight": 0.0064,
+        "assetTicker": "MATIC",
+        "assetName": "Polygon",
+        "assetCategory": "Platform",
+        "estimatedProfit": 0.3656499819154467
+      },
+      {
+        "rebalancedWeight": 0.0052,
+        "targetWeight": 0.0054,
+        "assetTicker": "XLM",
+        "assetName": "Stellar",
+        "assetCategory": "Platform",
+        "estimatedProfit": 0.343751129001474
+      },
+      {
+        "rebalancedWeight": 0.0052,
+        "targetWeight": 0.0042,
+        "assetTicker": "FIL",
+        "assetName": "Filecoin",
+        "assetCategory": "Defi",
+        "estimatedProfit": 0.05892626969203745
+      },
+      {
+        "rebalancedWeight": 0.0051,
+        "targetWeight": 0.0053,
+        "assetTicker": "VET",
+        "assetName": "VeChain",
+        "assetCategory": "Platform",
+        "estimatedProfit": 0.3498504629125133
+      },
+      {
+        "rebalancedWeight": 0.005,
+        "targetWeight": 0.0045,
+        "assetTicker": "FTT",
+        "assetName": "FTX Token",
+        "assetCategory": "Derivatives",
+        "estimatedProfit": 0.1830448472996633
+      },
+      {
+        "rebalancedWeight": 0.0049,
+        "targetWeight": 0.0044,
+        "assetTicker": "ETC",
+        "assetName": "Ethereum Classic",
+        "assetCategory": "Platform",
+        "estimatedProfit": 0.1574020762926056
+      },
+      {
+        "rebalancedWeight": 0.0045,
+        "targetWeight": 0.0034,
+        "assetTicker": "XTZ",
+        "assetName": "Tezos",
+        "assetCategory": "Platform",
+        "estimatedProfit": -0.002467646858212245
+      },
+      {
+        "rebalancedWeight": 0.0041,
+        "targetWeight": 0.0039,
+        "assetTicker": "THETA",
+        "assetName": "Theta",
+        "assetCategory": "Media",
+        "estimatedProfit": 0.2538215283717122
+      },
+      {
+        "rebalancedWeight": 0.004,
+        "targetWeight": 0.0034,
+        "assetTicker": "HBAR",
+        "assetName": "Hedera Hashgraph",
+        "assetCategory": "Dag",
+        "estimatedProfit": 0.09521832128787838
+      },
+      {
+        "rebalancedWeight": 0.0037,
+        "targetWeight": 0.0046,
+        "assetTicker": "AXS",
+        "assetName": "Axie Infinity",
+        "assetCategory": "NFT",
+        "estimatedProfit": 0.6263164408461946
+      },
+      {
+        "rebalancedWeight": 0.0035,
+        "targetWeight": 0.0029,
+        "assetTicker": "XMR",
+        "assetName": "Monero",
+        "assetCategory": "Privacy",
+        "estimatedProfit": 0.06871159514412749
+      },
+      {
+        "rebalancedWeight": 0.0034,
+        "targetWeight": 0.0027,
+        "assetTicker": "CAKE",
+        "assetName": "PancakeSwap",
+        "assetCategory": "Defi",
+        "estimatedProfit": 0.03270370554130634
+      },
+      {
+        "rebalancedWeight": 0.0032,
+        "targetWeight": 0.0031,
+        "assetTicker": "EGLD",
+        "assetName": "Elrond Gold",
+        "assetCategory": "Infrastructure",
+        "estimatedProfit": 0.2722502475725222
+      },
+      {
+        "rebalancedWeight": 0.0032,
+        "targetWeight": 0.0029,
+        "assetTicker": "CRO",
+        "assetName": "Crypto.com Coin",
+        "assetCategory": "Payments",
+        "estimatedProfit": 0.1673159138465154
+      },
+      {
+        "rebalancedWeight": 0.003,
+        "targetWeight": 0.0027,
+        "assetTicker": "EOS",
+        "assetName": "EOS",
+        "assetCategory": "Platform",
+        "estimatedProfit": 0.179044476161357
+      }
+    ],
+    "numberOfAssets": 29,
+    "lastRebalanced": 1633075455,
+    "monthlyRebalancedCount": 1
+  },
+  {
+    "ticker": "CAR",
+    "values": [
+      {
+        "rebalancedWeight": 0.2,
+        "targetWeight": 0.2007,
+        "assetTicker": "ATOM",
+        "assetName": "Cosmos",
+        "assetCategory": "Platform",
+        "estimatedProfit": 0.01852802423479117
+      },
+      {
+        "rebalancedWeight": 0.16,
+        "targetWeight": 0.1625,
+        "assetTicker": "ETH",
+        "assetName": "Ethereum",
+        "assetCategory": "Platform",
+        "estimatedProfit": 0.03103695950367387
+      },
+      {
+        "rebalancedWeight": 0.1,
+        "targetWeight": 0.0989,
+        "assetTicker": "BTC",
+        "assetName": "Bitcoin",
+        "assetCategory": "Currency",
+        "estimatedProfit": 0.003565109038210699
+      },
+      {
+        "rebalancedWeight": 0.1,
+        "targetWeight": 0.0999,
+        "assetTicker": "LUNA",
+        "assetName": "Terra",
+        "assetCategory": "Defi",
+        "estimatedProfit": 0.01442097698656211
+      },
+      {
+        "rebalancedWeight": 0.05,
+        "targetWeight": 0.0487,
+        "assetTicker": "SOL",
+        "assetName": "Solana",
+        "assetCategory": "Platform",
+        "estimatedProfit": -0.01725519358508456
+      },
+      {
+        "rebalancedWeight": 0.05,
+        "targetWeight": 0.0492,
+        "assetTicker": "DOT",
+        "assetName": "Polkadot NEW",
+        "assetCategory": "Platform",
+        "estimatedProfit": -0.001430875098606512
+      },
+      {
+        "rebalancedWeight": 0.05,
+        "targetWeight": 0.0493,
+        "assetTicker": "AVAX",
+        "assetName": "Avalanche",
+        "assetCategory": "Defi",
+        "estimatedProfit": -0.01860131719518516
+      },
+      {
+        "rebalancedWeight": 0.05,
+        "targetWeight": 0.0516,
+        "assetTicker": "NEAR",
+        "assetName": "NEAR Protocol",
+        "assetCategory": "Platform",
+        "estimatedProfit": 0.04663646127077404
+      },
+      {
+        "rebalancedWeight": 0.03,
+        "targetWeight": 0.0307,
+        "assetTicker": "LINK",
+        "assetName": "Chainlink",
+        "assetCategory": "Other",
+        "estimatedProfit": 0.03819770550269372
+      },
+      {
+        "rebalancedWeight": 0.03,
+        "targetWeight": 0.0299,
+        "assetTicker": "ALGO",
+        "assetName": "Algorand",
+        "assetCategory": "Defi",
+        "estimatedProfit": 0.009985319320799551
+      },
+      {
+        "rebalancedWeight": 0.03,
+        "targetWeight": 0.0299,
+        "assetTicker": "FTT",
+        "assetName": "FTX Token",
+        "assetCategory": "Derivatives",
+        "estimatedProfit": 0.01119873863151664
+      },
+      {
+        "rebalancedWeight": 0.03,
+        "targetWeight": 0.0305,
+        "assetTicker": "AAVE",
+        "assetName": "Aave",
+        "assetCategory": "Defi",
+        "estimatedProfit": 0.03280174293059944
+      },
+      {
+        "rebalancedWeight": 0.03,
+        "targetWeight": 0.0295,
+        "assetTicker": "COMP",
+        "assetName": "Compound",
+        "assetCategory": "Defi",
+        "estimatedProfit": -0.001191212865098943
+      },
+      {
+        "rebalancedWeight": 0.03,
+        "targetWeight": 0.03,
+        "assetTicker": "YFI",
+        "assetName": "yearn.finance",
+        "assetCategory": "Defi",
+        "estimatedProfit": 0.01455577123552415
+      },
+      {
+        "rebalancedWeight": 0.03,
+        "targetWeight": 0.0294,
+        "assetTicker": "MINA",
+        "assetName": "Mina",
+        "assetCategory": "Infrastructure",
+        "estimatedProfit": -0.004278673017429104
+      },
+      {
+        "rebalancedWeight": 0.03,
+        "targetWeight": 0.0295,
+        "assetTicker": "ROSE",
+        "assetName": "Oasis Network",
+        "assetCategory": "Infrastructure",
+        "estimatedProfit": 0.0002371077150114812
+      }
+    ],
+    "numberOfAssets": 16,
+    "lastRebalanced": 1634974669,
+    "monthlyRebalancedCount": 79
+  },
+  {
+    "ticker": "ECA",
+    "values": [
+      {
+        "rebalancedWeight": 0.6,
+        "targetWeight": 0.6232,
+        "assetTicker": "LUNA",
+        "assetName": "Terra",
+        "assetCategory": "Defi",
+        "estimatedProfit": 0.03135291671437513
+      },
+      {
+        "rebalancedWeight": 0.3,
+        "targetWeight": 0.2802,
+        "assetTicker": "BTC",
+        "assetName": "Bitcoin",
+        "assetCategory": "Currency",
+        "estimatedProfit": -0.07266556118734467
+      },
+      {
+        "rebalancedWeight": 0.1,
+        "targetWeight": 0.0967,
+        "assetTicker": "ETH",
+        "assetName": "Ethereum",
+        "assetCategory": "Platform",
+        "estimatedProfit": -0.04009489966116279
+      }
+    ],
+    "numberOfAssets": 3,
+    "lastRebalanced": 1634813592,
+    "monthlyRebalancedCount": 26
+  }
+]
